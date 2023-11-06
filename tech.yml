@@ -1,7 +1,7 @@
 repo_name: EmmanuStack/sql_server_forked
-report_id: 66c02467ca625934d4cf8261c020f468
+report_id: 4a79931dd2a0bf2940b17f115ffdcc7e
 repo_type: Public
-timestamp: '2023-11-06T16:12:25+00:00'
+timestamp: '2023-11-06T20:09:03+00:00'
 requested_by: emmanu-bacancy
 provider: github
 branch: master
@@ -18,8 +18,7 @@ tools:
   sub_category: Languages
   imageURL: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
   detection_source_url: SeleniumUiTests/SeleniumUiTests.csproj
-  detection_source:
-  - SeleniumUiTests/SeleniumUiTests.csproj
+  detection_source: SeleniumUiTests/SeleniumUiTests.csproj
 - name: C#
   description: Simple, general-purpose, object-oriented programming language for the
     .NET platform
@@ -29,8 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   imageURL: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
-  detection_source:
-  - Repo Metadata
+  detection_source: Repo Metadata
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
   website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
@@ -39,8 +37,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   imageURL: https://img.stackshare.io/service/6727/css.png
-  detection_source:
-  - Repo Metadata
+  detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
     functions
@@ -50,8 +47,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   imageURL: https://img.stackshare.io/service/1209/javascript.jpeg
-  detection_source:
-  - Repo Metadata
+  detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
     on simplicity and productivity
@@ -61,8 +57,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   imageURL: https://img.stackshare.io/service/989/ruby.png
-  detection_source:
-  - Repo Metadata
+  detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
   website_url: https://en.wikipedia.org/wiki/SQL
@@ -71,8 +66,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   imageURL: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
-  detection_source:
-  - WebApp.Database/dbo/Tables/Employee.sql
+  detection_source: WebApp.Database/dbo/Tables/Employee.sql
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
     many different types of applications
@@ -85,8 +79,7 @@ tools:
   sub_category: Frameworks (Full Stack)
   imageURL: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
   detection_source_url: SeleniumUiTests/SeleniumUiTests.csproj
-  detection_source:
-  - SeleniumUiTests/SeleniumUiTests.csproj
+  detection_source: SeleniumUiTests/SeleniumUiTests.csproj
 - name: ".NET Core"
   description: An Open Source, General-Purpose Development Platform Maintained by
     Microsoft and the .NET Community
@@ -99,9 +92,7 @@ tools:
   sub_category: Frameworks (Full Stack)
   imageURL: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
   detection_source_url: WebApp.UnitTest/WebApp.UnitTest.csproj
-  detection_source:
-  - WebApp.UnitTest/WebApp.UnitTest.csproj
-  - WebApp/WebApp.csproj
+  detection_source: WebApp/WebApp.csproj
 - name: ASP.NET Core
   description: A cross-platform .NET framework for building modern cloud-based web
     applications on Windows, Mac, or Linux
@@ -114,9 +105,7 @@ tools:
   sub_category: Frameworks (Full Stack)
   imageURL: https://img.stackshare.io/service/11331/asp.net-core.png
   detection_source_url: WebApp.UnitTest/WebApp.UnitTest.csproj
-  detection_source:
-  - WebApp.UnitTest/WebApp.UnitTest.csproj
-  - WebApp/WebApp.csproj
+  detection_source: WebApp/WebApp.csproj
 - name: Microsoft SQL Server
   description: A relational database management system developed by Microsoft
   website_url: http://microsoft.com/sqlserver
@@ -127,8 +116,7 @@ tools:
   sub_category: Databases
   imageURL: https://img.stackshare.io/service/1027/sql_server.png
   detection_source_url: WebApp.Database/WebApp.Database.sqlproj
-  detection_source:
-  - WebApp.Database/WebApp.Database.sqlproj
+  detection_source: WebApp.Database/WebApp.Database.sqlproj
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -137,8 +125,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   imageURL: https://img.stackshare.io/service/1046/git.png
-  detection_source:
-  - Repo Metadata
+  detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
   website_url: https://github.com/features/actions
@@ -147,8 +134,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   imageURL: https://img.stackshare.io/service/11563/actions.png
-  detection_source:
-  - ".github/workflows/dotnetcore.actions.yml"
+  detection_source: ".github/workflows/dotnetcore.actions.yml"
 - name: Istio
   description: Open platform to connect, manage, and secure microservices, by Google,
     IBM, and Lyft
@@ -159,9 +145,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Microservices Tools
   imageURL: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
-  detection_source:
-  - 02_azure-pipelines-ci.yml
-  - 03_azure-pipelines-ci-cd.yml
+  detection_source: 03_azure-pipelines-ci-cd.yml
 - name: NuGet
   description: The package manager for .NET
   website_url: https://www.nuget.org/
@@ -170,8 +154,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   imageURL: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
-  detection_source:
-  - WebApp/WebApp.csproj
+  detection_source: WebApp/WebApp.csproj
 - name: Terraform
   description: Describe your complete infrastructure as code and build resources across
     providers
@@ -182,8 +165,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   imageURL: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
-  detection_source:
-  - Terraform/webapp-db.tf
+  detection_source: Terraform/webapp-db.tf
 - name: Terraform Registry
   description: Describe your complete infrastructure as code and build resources across
     providers
@@ -194,8 +176,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   imageURL: https://img.stackshare.io/package_manager/49093/default_cdf079d244bded073d455911e6ce679abb1b77ab.png
-  detection_source:
-  - Terraform/webapp-db.tf
+  detection_source: Terraform/webapp-db.tf
 - name: Firefox
   description: Mozilla's Web Browser
   website_url: https://www.mozilla.org/en-US/firefox/
@@ -204,8 +185,7 @@ tools:
   category: Back Office
   sub_category: Web Browser
   imageURL: https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png
-  detection_source:
-  - SeleniumUiTests/packages.config
+  detection_source: SeleniumUiTests/packages.config
 - name: PowerShell
   description: A task automation and configuration management framework
   website_url: https://docs.microsoft.com/en-us/powershell/
@@ -214,8 +194,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   imageURL: https://img.stackshare.io/service/3681/powershell-logo.png
-  detection_source:
-  - Repo Metadata
+  detection_source: Repo Metadata
 - name: MSTest.TestFramework
   description: This is MSTest V2, the evolution of Microsoft's Test Framework
   package_url: https://www.nuget.org/MSTest.TestFramework
@@ -227,9 +206,7 @@ tools:
   sub_category: NuGet Packages
   imageURL: https://img.stackshare.io/package/13142/default_a057bdad489be3cb053d372a68695da4ac94962d.png
   detection_source_url: SeleniumUiTests/packages.config
-  detection_source:
-  - SeleniumUiTests/packages.config
-  - WebApp.UnitTest/WebApp.UnitTest.csproj
+  detection_source: WebApp.UnitTest/WebApp.UnitTest.csproj
 - name: Microsoft.EntityFrameworkCore.SqlServer
   description: Microsoft SQL Server database provider for Entity Framework Core
   package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore.SqlServer
@@ -241,8 +218,7 @@ tools:
   sub_category: NuGet Packages
   imageURL: https://img.stackshare.io/package/12891/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
   detection_source_url: WebApp/WebApp.csproj
-  detection_source:
-  - WebApp/WebApp.csproj
+  detection_source: WebApp/WebApp.csproj
 - name: Microsoft.EntityFrameworkCore.Tools
   description: Entity Framework Core Tools for the NuGet Package Manager Console in
     Visual Studio
@@ -255,8 +231,7 @@ tools:
   sub_category: NuGet Packages
   imageURL: https://img.stackshare.io/package/13138/default_a057bdad489be3cb053d372a68695da4ac94962d.png
   detection_source_url: WebApp/WebApp.csproj
-  detection_source:
-  - WebApp/WebApp.csproj
+  detection_source: WebApp/WebApp.csproj
 - name: Microsoft.VisualStudio.Web.CodeGeneration.Design
   description: Code Generation tool for ASP.NET Core
   package_url: https://www.nuget.org/Microsoft.VisualStudio.Web.CodeGeneration.Design
@@ -268,8 +243,7 @@ tools:
   sub_category: NuGet Packages
   imageURL: https://img.stackshare.io/package/13477/default_eb78542773998d1500f13778aa04738ef49376bd.png
   detection_source_url: WebApp/WebApp.csproj
-  detection_source:
-  - WebApp/WebApp.csproj
+  detection_source: WebApp/WebApp.csproj
 - name: Selenium.Firefox.WebDriver
   description: "Repurposed nuget package of Selenium.WebDriver.ChromeDriver but for
     Firefox Driver instead \tInstall Firefox Driver"
@@ -282,8 +256,7 @@ tools:
   sub_category: NuGet Packages
   imageURL: https://img.stackshare.io/package/13910/default_12c355ecd1469432782d9a53a6225a499e793b39.png
   detection_source_url: SeleniumUiTests/packages.config
-  detection_source:
-  - SeleniumUiTests/packages.config
+  detection_source: SeleniumUiTests/packages.config
 - name: Selenium.WebDriver
   description: Selenium is a set of different software tools each with a different
     approach to supporting browser automation
@@ -296,8 +269,7 @@ tools:
   sub_category: NuGet Packages
   imageURL: https://img.stackshare.io/package/12976/default_c33fee4544dbdcb376300222dc5e214ee63f7ce9.png
   detection_source_url: SeleniumUiTests/packages.config
-  detection_source:
-  - SeleniumUiTests/packages.config
+  detection_source: SeleniumUiTests/packages.config
 - name: Selenium.WebDriver.ChromeDriver
   description: Install Chrome Driver
   package_url: https://www.nuget.org/Selenium.WebDriver.ChromeDriver
@@ -309,8 +281,7 @@ tools:
   sub_category: NuGet Packages
   imageURL: https://img.stackshare.io/package/13327/default_9a849f196ca7930b27f663ae8f15c937ea1b49e5.png
   detection_source_url: SeleniumUiTests/packages.config
-  detection_source:
-  - SeleniumUiTests/packages.config
+  detection_source: SeleniumUiTests/packages.config
 - name: Selenium.WebDriver.IEDriver
   description: Install IE Driver
   package_url: https://www.nuget.org/Selenium.WebDriver.IEDriver
@@ -322,5 +293,4 @@ tools:
   sub_category: NuGet Packages
   imageURL: https://img.stackshare.io/package/13511/default_a5f7e489f1a0992baa6377c8f765ce325404bce2.png
   detection_source_url: SeleniumUiTests/packages.config
-  detection_source:
-  - SeleniumUiTests/packages.config
+  detection_source: SeleniumUiTests/packages.config
