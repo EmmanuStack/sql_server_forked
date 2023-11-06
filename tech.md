@@ -224,16 +224,16 @@ Full tech stack [here](/tech.md)
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg'/> NuGet (8)
 
-|NAME|VERSION|SOURCE FILE|License|Vulnerabilities|
-|------|------|------|------|------|
-|[MSTest.TestFramework](https://github.com/microsoft/testfx)|v2.2.8|[SeleniumUiTests/packages.config](https://github.com/EmmanuStack/sql_server_forked/blob/master/SeleniumUiTests/packages.config)|MIT|N/A|
-|[Microsoft.EntityFrameworkCore.SqlServer](https://docs.microsoft.com/ef/core/)|v6.0.0|[WebApp/WebApp.csproj](https://github.com/EmmanuStack/sql_server_forked/blob/master/WebApp/WebApp.csproj)|Apache-2.0|N/A|
-|[Microsoft.EntityFrameworkCore.Tools](https://docs.microsoft.com/ef/core/)|v6.0.0|[WebApp/WebApp.csproj](https://github.com/EmmanuStack/sql_server_forked/blob/master/WebApp/WebApp.csproj)|Apache-2.0|N/A|
-|[Microsoft.VisualStudio.Web.CodeGeneration.Design](https://github.com/aspnet/scaffolding)|v6.0.0|[WebApp/WebApp.csproj](https://github.com/EmmanuStack/sql_server_forked/blob/master/WebApp/WebApp.csproj)|Apache-2.0|N/A|
-|[Selenium.Firefox.WebDriver](https://github.com/jbaranda/nupkg-selenium-webdrivers)|v0.27.0|[SeleniumUiTests/packages.config](https://github.com/EmmanuStack/sql_server_forked/blob/master/SeleniumUiTests/packages.config)|Unlicense|N/A|
-|[Selenium.WebDriver](https://selenium.dev/)|v4.1.0|[SeleniumUiTests/packages.config](https://github.com/EmmanuStack/sql_server_forked/blob/master/SeleniumUiTests/packages.config)|Apache-2.0|N/A|
-|[Selenium.WebDriver.ChromeDriver](https://github.com/jsakamoto/nupkg-selenium-webdriver-chromedriver/)|v96.0.4664|[SeleniumUiTests/packages.config](https://github.com/EmmanuStack/sql_server_forked/blob/master/SeleniumUiTests/packages.config)|Unlicense|N/A|
-|[Selenium.WebDriver.IEDriver](https://github.com/jsakamoto/nupkg-selenium-webdriver-iedriver/)|v4.0.0|[SeleniumUiTests/packages.config](https://github.com/EmmanuStack/sql_server_forked/blob/master/SeleniumUiTests/packages.config)|Unlicense|N/A|
+|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
+|:------|:------|:------|:------|:------|:------|
+|[MSTest.TestFramework](https://github.com/microsoft/testfx)|v2.2.8|N/A|N/A |MIT|N/A|
+|[Microsoft.EntityFrameworkCore.SqlServer](https://docs.microsoft.com/ef/core/)|v6.0.0|N/A|N/A |Apache-2.0|N/A|
+|[Microsoft.EntityFrameworkCore.Tools](https://docs.microsoft.com/ef/core/)|v6.0.0|N/A|N/A |Apache-2.0|N/A|
+|[Microsoft.VisualStudio.Web.CodeGeneration.Design](https://github.com/aspnet/scaffolding)|v6.0.0|N/A|N/A |Apache-2.0|N/A|
+|[Selenium.Firefox.WebDriver](https://github.com/jbaranda/nupkg-selenium-webdrivers)|v0.27.0|N/A|N/A |Unlicense|N/A|
+|[Selenium.WebDriver](https://selenium.dev/)|v4.1.0|N/A|N/A |Apache-2.0|N/A|
+|[Selenium.WebDriver.ChromeDriver](https://github.com/jsakamoto/nupkg-selenium-webdriver-chromedriver/)|v96.0.4664|N/A|N/A |Unlicense|N/A|
+|[Selenium.WebDriver.IEDriver](https://github.com/jsakamoto/nupkg-selenium-webdriver-iedriver/)|v4.0.0|N/A|N/A |Unlicense|N/A|
 
 <br/>
 <div align='center'>
