@@ -9,14 +9,19 @@ EmmanuStack/sql_server_forked is built on the following main stack:
 - [Microsoft SQL Server](http://microsoft.com/sqlserver) – Databases
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [Terraform](https://www.terraform.io/) – Server Configuration and Automation
+- [Visual Studio](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx) – Integrated Development Environment
+- [Selenium](http://www.seleniumhq.org/) – Browser Testing
 - [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
+- [Entity Framework](https://docs.microsoft.com/en-us/aspnet/entity-framework) – Object Relational Mapper (ORM)
 - [PowerShell](https://docs.microsoft.com/en-us/powershell/) – Shells
 - [.NET Core](https://docs.microsoft.com/en-us/dotnet/core/) – Frameworks (Full Stack)
 - [ASP.NET](https://www.asp.net/) – Languages
-- [Istio](https://istio.io/) – Microservices Tools
 - [Firefox](https://www.mozilla.org/en-US/firefox/) – Web Browser
+- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/) – Object Relational Mapper (ORM)
 - [ASP.NET Core](docs.microsoft.com/en-us/aspnet/core/) – Frameworks (Full Stack)
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -32,14 +37,19 @@ EmmanuStack/sql_server_forked is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/1027/sql_server.png' alt='Microsoft SQL Server'/> [Microsoft SQL Server](http://microsoft.com/sqlserver) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png' alt='Terraform'/> [Terraform](https://www.terraform.io/) – Server Configuration and Automation
+- <img width='25' height='25' src='https://img.stackshare.io/service/1451/SR2hUhQN.png' alt='Visual Studio'/> [Visual Studio](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx) – Integrated Development Environment
+- <img width='25' height='25' src='https://img.stackshare.io/service/1517/sbUizSli_400x400.jpg' alt='Selenium'/> [Selenium](http://www.seleniumhq.org/) – Browser Testing
 - <img width='25' height='25' src='https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png' alt='SQL'/> [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/3251/no-img-open-source.png' alt='Entity Framework'/> [Entity Framework](https://docs.microsoft.com/en-us/aspnet/entity-framework) – Object Relational Mapper (ORM)
 - <img width='25' height='25' src='https://img.stackshare.io/service/3681/powershell-logo.png' alt='PowerShell'/> [PowerShell](https://docs.microsoft.com/en-us/powershell/) – Shells
 - <img width='25' height='25' src='https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png' alt='.NET Core'/> [.NET Core](https://docs.microsoft.com/en-us/dotnet/core/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png' alt='ASP.NET'/> [ASP.NET](https://www.asp.net/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'/> [Istio](https://istio.io/) – Microservices Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png' alt='Firefox'/> [Firefox](https://www.mozilla.org/en-US/firefox/) – Web Browser
+- <img width='25' height='25' src='https://img.stackshare.io/service/10254/no-img-open-source.png' alt='Entity Framework Core'/> [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/) – Object Relational Mapper (ORM)
 - <img width='25' height='25' src='https://img.stackshare.io/service/11331/asp.net-core.png' alt='ASP.NET Core'/> [ASP.NET Core](docs.microsoft.com/en-us/aspnet/core/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png' alt='pgvector'/> [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -50,7 +60,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [EmmanuStack/sql_server_forked](https://github.com/EmmanuStack/sql_server_forked)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|26<br/>Tools used|12/08/23 <br/>Report generated|
+|31<br/>Tools used|12/08/23 <br/>Report generated|
 |------|------|
 </div>
 
@@ -114,7 +124,7 @@ Full tech stack [here](/techstack.md)
   <br>
   <sub><a href="http://www.microsoft.com/net/">.NET</a></sub>
   <br>
-  <sub>v4.8</sub>
+  <sub></sub>
 </td>
 
 <td align='center'>
@@ -136,9 +146,25 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/databases.svg'/> Data (1)
+## <img src='https://img.stackshare.io/databases.svg'/> Data (4)
 <table><tr>
   <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/3251/no-img-open-source.png' alt='Entity Framework'>
+  <br>
+  <sub><a href="https://docs.microsoft.com/en-us/aspnet/entity-framework">Entity Framework</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/10254/no-img-open-source.png' alt='Entity Framework Core'>
+  <br>
+  <sub><a href="https://docs.microsoft.com/en-us/ef/core/">Entity Framework Core</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1027/sql_server.png' alt='Microsoft SQL Server'>
   <br>
   <sub><a href="http://microsoft.com/sqlserver">Microsoft SQL Server</a></sub>
@@ -146,10 +172,18 @@ Full tech stack [here](/techstack.md)
   <sub>v13.0</sub>
 </td>
 
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png' alt='pgvector'>
+  <br>
+  <sub><a href="https://github.com/pgvector/pgvector/">pgvector</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/devops.svg'/> DevOps (6)
+## <img src='https://img.stackshare.io/devops.svg'/> DevOps (7)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1046/git.png' alt='Git'>
@@ -168,17 +202,17 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg' alt='NuGet'>
   <br>
-  <sub><a href="https://istio.io/">Istio</a></sub>
+  <sub><a href="https://www.nuget.org/">NuGet</a></sub>
   <br>
   <sub></sub>
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg' alt='NuGet'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1517/sbUizSli_400x400.jpg' alt='Selenium'>
   <br>
-  <sub><a href="https://www.nuget.org/">NuGet</a></sub>
+  <sub><a href="http://www.seleniumhq.org/">Selenium</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -199,15 +233,31 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1451/SR2hUhQN.png' alt='Visual Studio'>
+  <br>
+  <sub><a href="http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx">Visual Studio</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
 </tr>
 </table>
 
-## Other (2)
+## Other (3)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png' alt='Firefox'>
   <br>
   <sub><a href="https://www.mozilla.org/en-US/firefox/">Firefox</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'>
+  <br>
+  <sub><a href="https://github.com/hwchase17/langchain">LangChain</a></sub>
   <br>
   <sub></sub>
 </td>
