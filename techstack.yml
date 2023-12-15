@@ -1,7 +1,7 @@
 repo_name: EmmanuStack/sql_server_forked
-report_id: c489273489588afb08c9be6fbd07c227
+report_id: fdd9471492bc23518f4decb3969f8ccd
 repo_type: Public
-timestamp: '2023-12-13T13:37:06+00:00'
+timestamp: '2023-12-15T12:55:35+00:00'
 requested_by: emmanu-bacancy
 provider: github
 branch: master
@@ -12,7 +12,7 @@ tools:
     with .NET
   website_url: https://www.asp.net/
   version: '4.8'
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
@@ -25,7 +25,7 @@ tools:
   description: Simple, general-purpose, object-oriented programming language for the
     .NET platform
   website_url: http://csharp.net
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
@@ -34,7 +34,7 @@ tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
   website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
@@ -44,7 +44,7 @@ tools:
   description: Lightweight, interpreted, object-oriented language with first-class
     functions
   website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
@@ -54,7 +54,7 @@ tools:
   description: A dynamic, interpreted, open source programming language with a focus
     on simplicity and productivity
   website_url: https://www.ruby-lang.org
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
@@ -63,7 +63,7 @@ tools:
 - name: SQL
   description: It is a domain-specific language used in programming
   website_url: https://en.wikipedia.org/wiki/SQL
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
@@ -77,7 +77,7 @@ tools:
   website_url: http://www.microsoft.com/net/
   version: '4.8'
   license: MIT
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
@@ -92,7 +92,7 @@ tools:
   website_url: https://docs.microsoft.com/en-us/dotnet/core/
   version: '6.0'
   license: MIT
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
@@ -107,7 +107,7 @@ tools:
   website_url: docs.microsoft.com/en-us/aspnet/core/
   version: '6.0'
   license: MIT
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
@@ -132,7 +132,7 @@ tools:
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Version Control System
@@ -142,7 +142,7 @@ tools:
   description: Automate your workflow from idea to production
   website_url: https://github.com/features/actions
   open_source: false
-  hosted_saas: false
+  hosted_saas: true
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
@@ -154,7 +154,7 @@ tools:
     IBM, and Lyft
   website_url: https://istio.io/
   license: Apache-2.0
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Microservices Tools
@@ -178,7 +178,7 @@ tools:
     providers
   website_url: https://www.terraform.io/
   license: MPL-2.0
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
@@ -191,7 +191,7 @@ tools:
     providers
   website_url: https://registry.terraform.io/
   license: MPL-2.0
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Package Managers
@@ -224,7 +224,7 @@ tools:
   package_url: https://www.nuget.org/MSTest.TestFramework
   version: 2.2.8
   license: MIT
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: NuGet Packages
@@ -238,7 +238,7 @@ tools:
   package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore.SqlServer
   version: 6.0.0
   license: Apache-2.0
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: NuGet Packages
@@ -253,7 +253,7 @@ tools:
   package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore.Tools
   version: 6.0.0
   license: Apache-2.0
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: NuGet Packages
@@ -267,7 +267,7 @@ tools:
   package_url: https://www.nuget.org/Microsoft.VisualStudio.Web.CodeGeneration.Design
   version: 6.0.0
   license: Apache-2.0
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: NuGet Packages
@@ -282,7 +282,7 @@ tools:
   package_url: https://www.nuget.org/Selenium.Firefox.WebDriver
   version: 0.27.0
   license: Unlicense
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: NuGet Packages
@@ -297,7 +297,7 @@ tools:
   package_url: https://www.nuget.org/Selenium.WebDriver
   version: 4.1.0
   license: Apache-2.0
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: NuGet Packages
@@ -311,7 +311,7 @@ tools:
   package_url: https://www.nuget.org/Selenium.WebDriver.ChromeDriver
   version: 96.0.4664
   license: Unlicense
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: NuGet Packages
@@ -325,7 +325,7 @@ tools:
   package_url: https://www.nuget.org/Selenium.WebDriver.IEDriver
   version: 4.0.0
   license: Unlicense
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: NuGet Packages
