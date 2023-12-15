@@ -50,7 +50,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [EmmanuStack/sql_server_forked](https://github.com/EmmanuStack/sql_server_forked)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|26<br/>Tools used|12/13/23 <br/>Report generated|
+|26<br/>Tools used|12/15/23 <br/>Report generated|
 |------|------|
 </div>
 
@@ -136,8 +136,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src=''/> Datab
-ases (1)
+## <img src='https://img.stackshare.io/databases.svg'/> Data (1)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1027/sql_server.png' alt='Microsoft SQL Server'>
