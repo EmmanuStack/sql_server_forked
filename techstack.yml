@@ -1,12 +1,12 @@
 repo_name: EmmanuStack/sql_server_forked
-report_id: b08647e96d43dd88b2091aeb1d459fc4
+report_id: 8329ea8ed5073eb07030b0c949082e9b
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-22T21:36:39+00:00'
+timestamp: '2024-03-01T21:55:49+00:00'
 requested_by: emmanu-bacancy
 provider: github
 branch: master
-detected_tools_count: 29
+detected_tools_count: 26
 tools:
 - name: ASP.NET
   description: An open source web framework for building modern web apps and services
@@ -31,6 +31,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/EmmanuStack/sql_server_forked
   detection_source: Repo Metadata
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -40,6 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/EmmanuStack/sql_server_forked
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -50,6 +52,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/EmmanuStack/sql_server_forked
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -60,6 +63,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/EmmanuStack/sql_server_forked
   detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -69,6 +73,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/EmmanuStack/sql_server_forked/blob/master/WebApp.Database/dbo/Tables/Employee.sql
   detection_source: WebApp.Database/dbo/Tables/Employee.sql
   last_updated_by: Houssem Dellai
   last_updated_on: 2018-07-18 20:59:47.000000000 Z
@@ -76,15 +81,17 @@ tools:
   description: A free, cross-platform, open source developer platform for building
     many different types of applications
   website_url: http://www.microsoft.com/net/
+  version: '4.8'
   license: MIT
   open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
-  detection_source: WebApp/WebApp.csproj
+  detection_source_url: https://github.com/EmmanuStack/sql_server_forked/blob/master/SeleniumUiTests/SeleniumUiTests.csproj
+  detection_source: SeleniumUiTests/SeleniumUiTests.csproj
   last_updated_by: Houssem Dellai
-  last_updated_on: 2021-12-17 15:01:19.000000000 Z
+  last_updated_on: 2019-02-02 12:16:02.000000000 Z
 - name: ".NET Core"
   description: An Open Source, General-Purpose Development Platform Maintained by
     Microsoft and the .NET Community
@@ -115,31 +122,6 @@ tools:
   detection_source: WebApp.UnitTest/WebApp.UnitTest.csproj
   last_updated_by: Houssem Dellai
   last_updated_on: 2021-12-17 17:26:42.000000000 Z
-- name: Entity Framework
-  description: An object-relational mapper that enables .NET developers to work with
-    relational data
-  website_url: https://docs.microsoft.com/en-us/aspnet/entity-framework
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Data Stores
-  sub_category: Object Relational Mapper (ORM)
-  image_url: https://img.stackshare.io/service/3251/no-img-open-source.png
-  detection_source: WebApp/WebApp.csproj
-  last_updated_by: Houssem Dellai
-  last_updated_on: 2021-12-17 15:01:19.000000000 Z
-- name: Entity Framework Core
-  description: 'Lightweight and cross-platform version of the popular Entity Framework '
-  website_url: https://docs.microsoft.com/en-us/ef/core/
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Data Stores
-  sub_category: Object Relational Mapper (ORM)
-  image_url: https://img.stackshare.io/service/10254/no-img-open-source.png
-  detection_source: WebApp/WebApp.csproj
-  last_updated_by: Houssem Dellai
-  last_updated_on: 2021-12-17 15:01:19.000000000 Z
 - name: Microsoft SQL Server
   description: A relational database management system developed by Microsoft
   website_url: http://microsoft.com/sqlserver
@@ -161,6 +143,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/EmmanuStack/sql_server_forked
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -170,9 +153,24 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/EmmanuStack/sql_server_forked/blob/master/.github/workflows/dotnetcore.actions.yml
   detection_source: ".github/workflows/dotnetcore.actions.yml"
   last_updated_by: Houssem Dellai
   last_updated_on: 2019-12-13 14:40:54.000000000 Z
+- name: Istio
+  description: Open platform to connect, manage, and secure microservices, by Google,
+    IBM, and Lyft
+  website_url: https://istio.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
+  detection_source_url: https://github.com/EmmanuStack/sql_server_forked/blob/master/02_azure-pipelines-ci.yml
+  detection_source: 02_azure-pipelines-ci.yml
+  last_updated_by: Houssem Dellai
+  last_updated_on: 2018-09-10 10:53:54.000000000 Z
 - name: NuGet
   description: The package manager for .NET
   website_url: https://www.nuget.org/
@@ -181,21 +179,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/EmmanuStack/sql_server_forked/blob/master/WebApp/WebApp.csproj
   detection_source: WebApp/WebApp.csproj
   last_updated_by: Houssem Dellai
   last_updated_on: 2021-12-17 15:01:19.000000000 Z
-- name: Selenium
-  description: Web Browser Automation
-  website_url: http://www.seleniumhq.org/
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Browser Testing
-  image_url: https://img.stackshare.io/service/1517/sbUizSli_400x400.jpg
-  detection_source: SeleniumUiTests/packages.config
-  last_updated_by: Houssem Dellai
-  last_updated_on: 2021-12-12 10:31:08.000000000 Z
 - name: Terraform
   description: Describe your complete infrastructure as code and build resources across
     providers
@@ -206,6 +193,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
+  detection_source_url: https://github.com/EmmanuStack/sql_server_forked/blob/master/Terraform/webapp-db.tf
   detection_source: Terraform/webapp-db.tf
   last_updated_by: git
   last_updated_on: 2019-06-03 15:25:56.000000000 Z
@@ -219,21 +207,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package_manager/49093/default_cdf079d244bded073d455911e6ce679abb1b77ab.png
+  detection_source_url: https://github.com/EmmanuStack/sql_server_forked/blob/master/Terraform/webapp-db.tf
   detection_source: Terraform/webapp-db.tf
   last_updated_by: git
   last_updated_on: 2019-06-03 15:25:56.000000000 Z
-- name: Visual Studio
-  description: State-of-the-art tools and services that you can use to create great
-    apps for devices, the cloud, and everything in between.
-  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Integrated Development Environment
-  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
-  detection_source: WebAppWithDatabase.sln
-  last_updated_by: Houssem Dellai
-  last_updated_on: 2021-12-17 15:01:19.000000000 Z
 - name: Firefox
   description: Mozilla's Web Browser
   website_url: https://www.mozilla.org/en-US/firefox/
@@ -242,6 +219,7 @@ tools:
   category: Back Office
   sub_category: Web Browser
   image_url: https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png
+  detection_source_url: https://github.com/EmmanuStack/sql_server_forked/blob/master/SeleniumUiTests/packages.config
   detection_source: SeleniumUiTests/packages.config
   last_updated_by: Houssem Dellai
   last_updated_on: 2021-09-08 12:15:46.000000000 Z
@@ -253,6 +231,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/EmmanuStack/sql_server_forked
   detection_source: Repo Metadata
 - name: MSTest.TestFramework
   description: This is MSTest V2, the evolution of Microsoft's Test Framework
