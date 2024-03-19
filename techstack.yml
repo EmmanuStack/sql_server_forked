@@ -1,8 +1,8 @@
 repo_name: EmmanuStack/sql_server_forked
-report_id: c35fe3e66d42f28e1ce836da51a7c0ae
+report_id: 1f4c7ebcdb8c5111eaee0eb38985b9b7
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-13T20:33:02+00:00'
+timestamp: '2024-03-19T14:37:36+00:00'
 requested_by: emmanu-bacancy
 provider: github
 branch: master
@@ -226,7 +226,7 @@ tools:
 - name: PowerShell
   description: A task automation and configuration management framework
   website_url: https://docs.microsoft.com/en-us/powershell/
-  open_source: false
+  open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
